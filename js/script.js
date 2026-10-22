@@ -31,6 +31,12 @@ const portfolioConfig = {
       demo: "https://elsharkawy55a-cyber.github.io/pet-haven-/"
     }
   ],
+    education: {
+    institution: "New Mansoura University",
+    faculty: "Computer Science",
+    specialization: "Artificial Intelligence"
+  }
+};
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
