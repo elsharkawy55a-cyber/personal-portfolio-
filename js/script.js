@@ -22,12 +22,17 @@ const portfolioConfig = {
   ],
   /* Add projects here. Cards appear automatically when real project entries are added.
      Example: { title:"Project title", category:"AI / ML", description:"...", technologies:["Python"], image:"assets/images/projects/example.jpg", github:"https://...", demo:"https://..." } */
-  projects: [],
-  education: {
-    institution: "New Mansoura University",
-    faculty: "Computer Science",
-    specialization: "Artificial Intelligence"
-  }
+projects: [
+{
+title: "Pet Haven",
+category: "WEB DEVELOPMENT",
+description: "A modern pet care website designed to help visitors explore pet-related services and discover a welcoming online experience.",
+technologies: ["HTML", "CSS", "JavaScript"],
+image: "",
+demo: "https://elsharkawy55a-cyber.github.io/pet-haven-/"
+}
+],
+
 };
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
