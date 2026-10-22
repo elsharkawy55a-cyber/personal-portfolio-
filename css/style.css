@@ -162,3 +162,37 @@ opacity: 1 !important;
 transform: none !important;
 }
 }
+```css
+/* Fix horizontal page movement on mobile */
+@media screen and (max-width: 768px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    overscroll-behavior-x: none;
+  }
+
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden !important;
+    position: relative;
+    overscroll-behavior-x: none;
+  }
+
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+
+  .container,
+  .section-shell,
+  .hero,
+  .section,
+  .site-header,
+  .site-footer {
+    max-width: 100%;
+  }
+}
+```
