@@ -20,20 +20,17 @@ const portfolioConfig = {
     { icon: "⌘", category: "Tools & Workflow", description: "Add your development tools here." },
     { icon: "↗", category: "Currently Learning", description: "Show what you are actively learning right now." }
   ],
-  /* Add projects here. Cards appear automatically when real project entries are added.
-     Example: { title:"Project title", category:"AI / ML", description:"...", technologies:["Python"], image:"assets/images/projects/example.jpg", github:"https://...", demo:"https://..." } */
-projects: [
-{
-title: "Pet Haven",
-category: "WEB DEVELOPMENT",
-description: "A modern pet care website designed to help visitors explore pet-related services and discover a welcoming online experience.",
-technologies: ["HTML", "CSS", "JavaScript"],
-image: "",
-demo: "https://elsharkawy55a-cyber.github.io/pet-haven-/"
-}
-],
-
-};
+   /* Add projects here. */
+  projects: [
+    {
+      title: "Pet Haven",
+      category: "WEB DEVELOPMENT",
+      description: "A modern pet care website designed to help visitors explore pet-related services and discover a welcoming online experience.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      image: "",
+      demo: "https://elsharkawy55a-cyber.github.io/pet-haven-/"
+    }
+  ],
 
 const $ = (selector, parent = document) => parent.querySelector(selector);
 const $$ = (selector, parent = document) => [...parent.querySelectorAll(selector)];
